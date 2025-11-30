@@ -1,0 +1,69 @@
+/* NAVBAR BASE */
+.navbar {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* NAV LINKS (Desktop Default) */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+/* HAMBURGER HIDDEN ON BIG SCREEN */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ==========================
+   MOBILE VIEW
+   ========================== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: #f9f9f9;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;   /* hidden by default */
+  }
+
+  .nav-links.open {
+    display: flex;   /* show when open */
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+  }
+}
