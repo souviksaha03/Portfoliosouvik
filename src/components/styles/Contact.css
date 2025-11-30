@@ -1,0 +1,139 @@
+.contact-section {
+  padding: 60px 40px;
+  width: 100%;
+  background: #f9fafc;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.contact-wrapper {
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+/* LEFT SIDE */
+.contact-left h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-text {
+  color: #666;
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-box {
+  width: 55px;
+  height: 55px;
+  background: #edf2ff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3b5bff;
+  font-size: 22px;
+}
+
+.info-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info-card p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* RIGHT SIDE */
+.contact-right {
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #3b5bff;
+  box-shadow: 0 0 3px rgba(59, 91, 255, 0.4);
+}
+
+.send-btn {
+  width: 100%;
+  padding: 15px;
+  background: #295bff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+.send-btn:hover {
+  background: #1948e0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section {
+    padding: 40px 20px;
+  }
+}

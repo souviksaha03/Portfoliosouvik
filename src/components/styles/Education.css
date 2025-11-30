@@ -1,0 +1,171 @@
+.education {
+  padding: 60px 120px;
+  background: #f7f9fc;
+}
+
+.education h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.edu-card {
+  display: flex;
+  gap: 25px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 25px auto;
+  width: 75%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-box {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  background: #eaf1ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edu-icon {
+  color: #1e5eff;
+  font-size: 32px;
+}
+
+.edu-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.inst {
+  color: #1e5eff;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.meta {
+  font-size: 15px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+.small-icon {
+  color: #1e5eff;
+  margin-right: 5px;
+}
+
+.desc {
+  color: #444;
+  font-size: 15px;
+}
+
+/* ====== Responsive Styles ====== */
+@media (max-width: 1024px) {
+  .education {
+    padding: 50px 60px;
+  }
+
+  .edu-card {
+    width: 85%;
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .edu-content h3 {
+    font-size: 20px;
+  }
+
+  .inst {
+    font-size: 16px;
+  }
+
+  .meta, .desc {
+    font-size: 14px;
+  }
+
+  .edu-icon {
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 40px 30px;
+  }
+
+  .edu-card {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    padding: 20px;
+  }
+
+  .icon-box {
+    margin-bottom: 15px;
+  }
+
+  .edu-content h3 {
+    font-size: 18px;
+  }
+
+  .inst {
+    font-size: 15px;
+  }
+
+  .meta, .desc {
+    font-size: 13px;
+  }
+
+  .edu-icon {
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .education h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .edu-card {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .edu-content h3 {
+    font-size: 16px;
+  }
+
+  .inst {
+    font-size: 14px;
+  }
+
+  .meta, .desc {
+    font-size: 12px;
+  }
+
+  .edu-icon {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,84 @@
+/* Container */
+.resume-container {
+  width: 100%;
+  padding: 80px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+/* Main Title */
+.resume-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 60px;
+}
+
+/* Card */
+.resume-card {
+  max-width: 750px;
+  background: #ffffff;
+  padding: 60px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eee;
+}
+
+/* Icon Circle */
+.icon-circle {
+  width: 110px;
+  height: 110px;
+  background: #e6f0ff;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: #2b6cff;
+}
+
+/* Heading */
+.section-heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Subtext */
+.section-text {
+  color: #666;
+  font-size: 16px;
+  max-width: 480px;
+  margin: 0 auto 30px;
+}
+
+/* Button */
+.download-btn {
+  background: #2b6cff;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #1f54c9;
+}
+
+/* Last updated text */
+.updated-text {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #888;
+}
